@@ -11,7 +11,8 @@ class Product extends Model
         'detail',
         'stock',
         'price',
-        'discount'
+        'discount',
+        'user_id'
     ];
     
     public function reviews()
